@@ -29,7 +29,7 @@ namespace BasicLinqOperations
             var findCheck = students.Find(student => student.Name.Contains("an"));
             Console.WriteLine(String.Format("First student with 'an' in their name: {0}", findCheck));
 
-            Console.WriteLine("Basic LINQ Operations\n");
+            Console.WriteLine("Basic LINQ Operations\n"); // Demonstrating various LINQ operations on the students list.
 
             // Where: filter records.
             var highScorers = students.Where(student => student.Marks >= 80);
@@ -99,6 +99,7 @@ namespace BasicLinqOperations
         {
             Console.WriteLine("OpenAI API Example\n");
             Thread.Sleep(2000);
+            Console.WriteLine("Simulating API call to OpenAI...\n");
             Console.WriteLine("This is a placeholder for OpenAI API code. You can replace this with actual API calls to interact with OpenAI models.");
 
             // var client = new OpenAIClient(apikey);
