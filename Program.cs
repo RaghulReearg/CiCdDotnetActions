@@ -17,6 +17,7 @@ namespace BasicLinqOperations
             // Console.WriteLine("Progeam is running while waiting for OpenAI response...\n");
             // await data;
             // Console.WriteLine("Continuing with LINQ operations...\n");
+            Console.WriteLine("Added CI CD Settings\n");
             var students = new List<Student>
             {
                 new Student { Id = 1, Name = "Anu", Department = "Computer Science", Marks = 89 },
